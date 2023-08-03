@@ -1,13 +1,29 @@
 .header{
+width: 500px;
+margin: auto;
+}
+.header input{
+    width: 500px;
+    height: 30px;
+    font-size: 25px;
+}
+.main{
     display: flex;
+    
+}
+.p{
+    border-bottom: 1px solid rgb(181, 178, 178);
+    font-size: 30px;
+}
+.left{
+    width: 300px;
+}
+.props{
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
-}
-.img{
-width: 70px;
-/* height: 50px; */
-background-color: white;
-}
-p{
-    font-size: 20px;
+    width: 800px;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    
 }
